@@ -1,5 +1,5 @@
 // try irá verificar uma função e se ocorrer um erro nesta função
-// o código irá ler o bloco catch e ele poderá qual foi o erro para manipular
+// o código irá ler o bloco catch e ele poderá pegar qual foi o erro para manipular
 
 function retornaString(str) {
   if (!str) return console.log("String inválida");
