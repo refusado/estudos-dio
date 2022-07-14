@@ -1,8 +1,8 @@
 // pegar elemento
-const title = document.getElementById("title");
-const content = document.getElementById('conteudo');
-const list = document.getElementById('listinha');
-const items = document.getElementsByClassName('item');
+const title   = document.getElementById("title"),
+      content = document.getElementById('conteudo'),
+      list    = document.getElementById('listinha'),
+      items   = document.getElementsByClassName('item');
 
 content.addEventListener('mouseover', function() {
   content.style.backgroundColor = 'red';

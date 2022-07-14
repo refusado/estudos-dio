@@ -1,0 +1,22 @@
+// DOCUMENTAÇÃO DOM EVENTS
+// https://developer.mozilla.org/pt-BR/docs/Web/Events
+// cópia file:///home/renan/Documentos/DOMevents.html
+
+
+// Eventos são as ações que os usuários fazem interagindo aos elementos
+
+// Eventos de mouse
+'click'
+'mouseover'
+'mouseout'
+'dbclick'
+
+// Eventos de atualização
+'change'
+'load'
+
+
+// ACIONANDO ELEVENTOS
+
+botao.addEleventListener("click", outraFuncao);
+<h1 onclick="mudaTexto(this)">Clique aqui!</h1> (adicionar 'on' na frente)
