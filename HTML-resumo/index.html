@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo em HTML puro</title>
+</head>
+<body>
+    <h1 id="inicio">Resumo do curso</h1>
+    <details>
+        <summary>Sobre</summary>
+        <h2>Sobre o projeto</h2>
+        <p>Este é um desfio proposto pela <strong><abbr title="Digital Inovattion One">DIO</abbr></strong> no curso <strong><a href="https://web.dio.me/track/ntt-data-diversidade-em-tech" target="_blank">NTT DATA Diversidade em Tech</a></strong>, onde é pedido um resumo do curso de <abbr title="HiperText Markup Language">HTML</abbr></p><small>Página feita em HTML puro</small>
+        <blockquote>"A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:
+ 
+            Utilizar todas as tags explicadas nas aulas: <mark>h1</mark> até <mark>h6</mark>, <mark>p</mark>, <mark>mark</mark>, <mark>small</mark>, <mark>i</mark>, <mark>u</mark>, <mark>strong</mark>, <mark>ol</mark>, <mark>ul</mark>, <mark>li</mark>, <mark>a</mark>, <mark>hr</mark>, <mark>sub</mark>, <mark>sup</mark>, <mark>blockquote</mark>;
+            Utilizar novas tags sugeridas: <mark><del>font</del></mark>, <mark>del</mark>, <mark>p</mark>, <mark>abbr</mark> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto)."
+
+        </blockquote>
+
+        <h3>Observações</h3>
+        <ol>
+            <li>
+                <p>No desafio está pedindo o uso da tag <mark>font</mark>, mas o uso desta tag já está obsoleta.
+                    <sub>fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font">font - HTML: HyperText Markup Language - MDN Web Docs</a></sub>
+                </p>
+            </li>
+            <li>
+                <p>Também solicitam o uso da tag <mark>h1</mark> até a <mark>h6</mark>, mas não vejo necessidade de um projeto utilizando <b>TODOS</b> os <i>Heading's</i></p>
+            </li>
+        </ol>
+    </details>
+    <hr>
+    <h5>Sumário</h5>
+    <ul>
+        <li><a href="#ferramentas">Ferramentas úteis</a></li>
+        <li><a href="#inspetor">Inspetor de Elementos</a></li>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Tags HTML</a></li>
+        <li><a href="#atributos">Atributos das tags</a></li>
+        <li><a href="#listas">Lista ordenada e não ordenada</a></li>
+        <li><a href="#link">Adicionando linkas à página</a></li>
+    </ul>
+    <hr>
+    <section id="ferramentas"><h2>Ferramentas úteis</h2>
+        <p>Para desenvolver páginas HTML, é importante ter algumas ferramentas para auxiliar nesta tarefa. Apesar de ser possível desenvolver apenas com o bloco de texto, é importante ter um editor de código com este propósito, pois assim suas tarefas durante o processo serão menos cansativas e o seu trabalho será mais produtivo</p>
+        <h4>Entre os editores de código mais conhecidos, estão:</h4>
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>Sublime text</li>
+            <li>Atom</li>
+            <li>Notepad ++</li>
+        </ul>
+
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+    <section id="inspetor"><h2>Inspetor de Elementos</h2>
+        <p>Umas das ferramentas mais úteis que temos, principalmente para lidar com erros, é o inspetor de elementos no navegador, com ele <u>é possível literalmente inspecionar os elementos do HTML</u> em seu navegador e entender como ele está se comportando na página. Com inspetor de elementos você tem todas as informações sobre cada tag do HTML.</p>
+        <img width="470px" src="https://kinsta.com/wp-content/uploads/2021/05/kinsta-inspect-element.png" alt="Demonstração do inspetor de elementos do Google"><br>
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+    <section id="estrutura"><h2>Estrutura básica do HTML</h2>
+        <p>Dentro do <strong>HTML</strong> temos uma estrutura básica de elementos que é seguida</p>
+        <h4>A estrutura é composta por:</h4>
+        <ul>
+            <li>
+                <strong>head</strong>, que é a tag composta pelos cabeçalhos do documento da página, elementos que não são exibidos dentro do site (como o título da aba);
+            </li>
+            <li>
+                <strong>body</strong> é a tag onde vai todo o conteúdo da página, tudo nesta tag é o que será apresentado ao visitande do site;
+            </li>
+            <li>
+                <strong>header</strong>, que é a tag composta pelo cabeçalho dos elementos da página, onde geralmente fica o menu com o direcionamento para o conteúdo do site;
+            </li>
+            <li>
+                <strong>main</strong>, este nome em português significa <i>"principal"</i> e esta tag é justamente onde colocamos o conteúdo principal do site!;
+            </li>
+            <li>
+                <strong>aside</strong> é a tag onde irá o conteúdo separado do conteúdo principal mas que tem uma ligação com o mesmo;
+            </li>
+            <li>
+                <strong>footer</strong> é a parte final do site, onde tem as últimas informações e onde geralmente colocamos detalhes que não estão de fato relacinoado ao conteúdo.
+            </li>
+        </ul>
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+    <section id="tags"><h2>Tags HTML</h2>
+        <p>As tags são basicamente os elementos do site, é como montamos a estrutura da página. <sup>(é como o navegador indentifica o que é o que no site)</sup></p>
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+    <section id="atributos"><h2>Atributos das tags</h2>
+        <p>Os atributos são informações que declaramos no momentos em que iniciamos uma tag HTML, nesse atributo passamos informações complementares à tag, como o endereço de uma imagem em uma tag <mark>img</mark></p>
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+    <section id="listas"><h2>Listas ordenadas e não ordenadas</h2>
+        <p>As listas são meios de colocarmos uma sequência de informações relacionadas, literalmente listar elementos. Para isso podemos criar uma lista ordenada (onde a posição de cada elemento importa) com a tag <mark>ol</mark>, ou a lista não ordenada (onde a ordem dos elementos não importa) com a tag <mark>ul</mark></p>
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+    <section id="link"><h2>Adicionando links à página</h2>
+        <p>Uma das funcionalidades mais legais do HTML, na minha opinião, pois torna o site mais dinâmico o conectando com outros lugares, a tag <mark>a</mark> nos permite atravez do atribute <u>href</u> anexar um link para outra parte do site ou até mesmo para outro site, você escolhe!</p>
+        <a href="#inicio">Voltar para o topo</a>
+    </section>
+</body>
+</html>
