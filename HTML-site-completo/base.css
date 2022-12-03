@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #70dd9e;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+header {
+    width: min(1020px, 85vw);
+    height: 30vh;
+    overflow: hidden;
+}
+
+header img {
+    width: max(100%, 100vh);
+    object-position: 0 -220px;
+}
+
+main {
+    width: min(1020px, 85vw);
+    height: 55vh;
+}
+
+aside {
+    background-color: #5dcb8b;
+    width: min(180px, 15vw);
+    height: 100vh;
+    order: -2;
+}
+
+footer {
+    width: min(1020px, 85vw);
+    height: 15vh;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-flex;
+    gap: 80px;
+}
+
+tr:hover {
+    background-color: #00000012;
+}
+
+#center {
+    display: flex;
+}
