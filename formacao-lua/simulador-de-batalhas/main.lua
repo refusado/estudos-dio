@@ -3,6 +3,7 @@ os.execute("chcp 65001")
 
 -- Dependecies
 local player = require("definitions.player")
+local colossus = require("definitions.colossus")
 
 -- Header
 print([[
@@ -30,8 +31,11 @@ print([[
 
 
 -- Obter definição do jogador
+print(string.format("A vida do jogador está em %d/%d", player.health, player.maxHealth))
 
 -- Obter definição do monstro
+local boss = colossus
+print(string.format("A vida do chefão está em %d/%d", boss.health, boss.maxHealth))
 
 -- Apresentar monstro
 
